@@ -9,7 +9,7 @@
 No index
 Car Load (2.9ms)  SELECT "cars".* FROM "cars" WHERE "cars"."name0" = $1  [["name0", "toyota500"]]
 
-Add index field name0
+1000 record (Add index field name0)
 -- find_by name0
 Car Load (2.0ms)  SELECT "cars".* FROM "cars" WHERE "cars"."name0" = $1 LIMIT $2  [["name0", "toyota500"], ["LIMIT", 1]]
 -- where name0
